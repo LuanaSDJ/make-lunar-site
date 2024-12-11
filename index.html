@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <script src="script.js" defer></script>
+  <title>Make Lunar - Loja de Cosméticos</title>
+</head>
+<body>
+  <header>
+    <img id="logo" src="logo-make-lunar.png" alt="Make Lunar">
+    <h1 id="logo-animado">Make Lunar</h1>
+    <p>Descubra nossos produtos no <a href="https://instagram.com/make_lunar" target="_blank">Instagram</a></p>
+  </header>
+  <main>
+    <section class="consulta-cep">
+      <h2>Consulte seu CEP para entregas:</h2>
+      <form id="cep-form">
+        <input type="text" id="cep" placeholder="Digite seu CEP" required>
+        <div id="sugestoes"></div>
+        <button type="submit" id="consultar-btn">Consultar</button>
+      </form>
+      <div id="resultado"></div> <!-- Resultado do frete ou entrega grátis -->
+    </section>
+  </main>
+  <footer>
+    <p>© 2024 Make Lunar. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
+
+
