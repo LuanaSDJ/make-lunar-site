@@ -11,7 +11,7 @@ document.getElementById('cep').addEventListener('input', function (event) {
   const cep = event.target.value;
 
   // Verifica se o valor é suficiente para consultar (exemplo: mínimo de 3 dígitos)
-  if (cep.length >= 3) {
+  if (cep.length >= 8) {
     debounceTimer = setTimeout(() => {
       fetchCepSuggestions(cep);
     }, 1000);  // 1000ms = 1 segundo de espera após o último caractere digitado.
